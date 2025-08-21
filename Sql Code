@@ -1,0 +1,8 @@
+use Test1DB;
+
+CREATE TABLE UserDetails( 
+UserId int primary key identity(1,1), 
+UserName VARCHAR(100), 
+Password VARCHAR(100), 
+City VARCHAR (100), 
+);
